@@ -10,7 +10,7 @@ module.exports = (env, argv) => {
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'bundle.js',
-      publicPath: process.env.DEPLOY_TARGET === 'github' ? '/xuekao-official/' : 'auto'
+      publicPath: process.env.DEPLOY_TARGET === 'github' ? '/xuekao66/' : 'auto'
     },
     module: {
       rules: [
