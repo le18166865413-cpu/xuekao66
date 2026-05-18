@@ -1,0 +1,12 @@
+name = "xuekao"
+compatibility_date = "2025-01-01"
+
+[build]
+  command = "npm run build"
+  cwd = "."
+  watch_dir = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
